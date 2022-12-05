@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <script>
+            function add()
+            {
+                var one,  two, sum;
+                one = parseInt(document.getElementById("First").value);
+                two = parseInt(document.getElementById("Second").value);
+                sum=one + two;
+                document.getElementById("Answer").value=sum;
+            } 
+
+            function sub()
+            {
+                var one,  two, sum;
+                one = parseInt(document.getElementById("First").value);
+                two = parseInt(document.getElementById("Second").value);
+                sum=one - two;
+                document.getElementById("Answer").value=sum;
+            } 
+
+            function multiple()
+            {
+                var one,  two, sum;
+                one = parseInt(document.getElementById("First").value);
+                two = parseInt(document.getElementById("Second").value);
+                sum=one * two;
+                document.getElementById("Answer").value=sum;
+            } 
+
+            function division()
+            {
+                var one,  two, sum;
+                one = parseInt(document.getElementById("First").value);
+                two = parseInt(document.getElementById("Second").value);
+                sum=one / two;
+                document.getElementById("Answer").value=sum;
+            } 
+        </script>
+    </head>
+    <body>
+       <p>Enter First Number :  <input id="First"></p>
+       <p>Enter Second Number :  <input id="Second"></p>
+       <button onclick = "add()">Addition</button>
+       <button onclick = "sub()">Minus</button>
+       <button onclick = "multiple()">Multiple</button>
+       <button onclick = "division()">Division</button>
+       <p>sum=<input id="Answer"> </p>
+    </body>
+</html>

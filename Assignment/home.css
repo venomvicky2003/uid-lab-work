@@ -1,0 +1,19 @@
+.bg-main{
+    background-image: url('BGM.jpg');
+    background-size: cover;
+}
+
+.border{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding-left: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 500px;
+    margin-left: 300px;
+
+}
+
+

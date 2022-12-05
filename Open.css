@@ -1,0 +1,17 @@
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-image:url('BGM.jpg');
+    background-size: cover;
+    align-content: center;
+}
+.border{
+    border: 20px;
+    background-color: rgb(212, 169, 234);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.head{
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.border-main{
+    border-radius: 15px;
+    border-style: solid;
+    margin-left: 480px;
+    margin-right: 480px;
+    padding-bottom: 20px;
+}
+
+.text-m{
+    margin-bottom: -50px;
+    margin-top: 10px;
+    background-color: #ffffffff;
+    text-decoration: underline;
+}
+
+.text-all{
+    margin-left: 15px;
+    
+}
+
+.text-b{
+    margin-left: 110px;
+}
+
+.border-l{
+    border-color: aliceblue;
+    background-color: #ffffffff;
+    border-radius: 10px;
+}
+
+.text-p{
+    margin-bottom:5px;
+    text-decoration: underline;
+}
+
+.video{
+    background-image: url("g.gif");
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.button-a{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <head>
+        <title>SSV Hostel Login</title>
+        <link rel="stylesheet" href="Login.css">
+        <style>
+             <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        nav ul li a{
+            text-decoration: none; 
+            color: rgb(225, 77, 77); 
+            font-family: Courier New; 
+            font-size: 24px;
+        }
+        nav ul li a:hover{
+          color:rgb(14, 12, 1);
+        }
+        hr { 
+          display: block;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: inset;
+          border-width: 1px;
+} 
+    </style>
+        
+    </head>
+    <body class="bgm" onload="createCaptcha()">
+        <div class="border">
+            <form align="Center">
+            <h1>HOSTEL LOGIN</h1>
+            <label for="User_name"><h1>Username</h1></label>
+            <input type="text" name="username" id="User_name">
+            <label for="pass">
+            <h1>Password</h1></label>
+            <input type="password" name="userpassword" id="pass"><br>
+            <br>
+            <br>
+            <script src="Login.js"></script>
+                <form onsubmit="validateCaptcha()">
+                  <div id="captcha">
+                  </div>
+                  <input type="text" placeholder="Captcha" id="cpatchaTextBox"/>
+                  <a href="index2.html" button type="button">Submit</a></button>
+                </form>
+          </body>
+        </div>
+    </body>

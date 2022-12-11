@@ -1,0 +1,33 @@
+.bgm{
+    background-image:url('photo/bgm.jpg');
+    background-size: cover; 
+    
+}
+
+.border{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 180px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+  background-color: rgb(80, 106, 190);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+canvas{
+  pointer-events:none;
+}

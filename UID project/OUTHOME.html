@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <title>SSV Hostel Login</title>
+        <link rel="stylesheet" href="Login.css">
+        <script src="qr.js"></script>
+        <style>
+             
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        nav ul li a{
+            text-decoration: none; 
+            color: rgb(225, 77, 77); 
+            font-family: Courier New; 
+            font-size: 24px;
+        }
+        nav ul li a:hover{
+          color:rgb(14, 12, 1);
+        }
+        hr { 
+          display: block;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: inset;
+          border-width: 1px;
+} 
+    </style>
+    </head>
+    <body class="bgm"
+      < form name="cys" style="padding:30px" align="center" method ="post">
+        
+        <label for ="NAME"> NAME : </label>
+            <input type = "text" name="name" minlength ="7" id ="name" required />
+             <br><br>
+		<label for = "phone"> PHONE : </label>
+             <input type = "text"  name = "Phone" id = "phone" pattern = [0-9]{10} />
+           <br><br>
+  
+        <label for = "E-Mail"> E-MAIL ID : </label>
+             <input type = "text" name = "E-Mail" id = "E-Mail"  required >
+             <br><br>
+        <label for = "ROOM NO"> ROOM NO : </label>
+             <input type = "text" name = "ROOM NO" id = "ROOM NO "  required />
+             <br><br>
+        <label fro ="password"> DATE OF LEAVEING/TIME:</label> </label>
+		     <input type="text" name="DATE OF LEAVEING/TIME" id="DATE OF LEAVING" required />
+			 <br><br>
+	    <label fro =" CONFIRM password"> DATE OF RETURN/TIME : </label>
+		     <input type="text" name="DATE OF RETURN AND TIME " id="DATE OF RETURN AND TIME" required />
+			 <br><br>
+             <label for = "PASS"> PASS : </label>
+             <input type = "radio" name = "PASS" id = "HOMEPASS">
+	              <label for = "male"> HOMEPASS </label>
+	         <input type ="radio" name = "PASS" id = "OUTPASS">
+	              <label for = "OUTPASS"> OUTPASS </label><br><br>
+       
+ <label for = "CONFIRMED BY"> CONFIRMED: </label>
+                  <input type="checkbox" name="CONFIRMED BY" id="CONFIRMED BY">
+                      <label for="CLASS ADVISOR"> PRINCIPAL</label> 
+                  <input type="checkbox" name="CONFIRMED BY" id="CONFIRMED BY">
+                <label for="CYBER CONCLAVE"> HOSTEL WARDEN </label><br>
+                <br><br>
+                
+                     <input type="checkbox" name="CONFIRMED BY" id="CONFIRMED BY">
+    <label for = "CONFIRMEd"> By Clicking Submit that you QR Code will generated  </label>
+                    <br>
+         <a href="qr.html"><button type="button"> SUBMIT </a></button>
+    </form>
+    </body>
+    </html>
+        

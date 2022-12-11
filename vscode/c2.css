@@ -1,0 +1,46 @@
+.border{
+    border: solid;
+    border-radius: 12px;
+    background-color: beige;
+    padding-bottom: 12px;
+    width: 200px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+.word{
+    text-decoration: underline;
+}
+
+.bgm{
+    background-color: blueviolet;
+}
+
+
+.borders{
+    border: solid;
+    border-radius: 12px;
+    background-color: beige;
+    padding-bottom: 12px;
+    width: 200px;
+    
+}
+
+.borderss{
+    border: solid;
+    border-radius: 12px;
+    background-color: beige;
+    padding-bottom: 12px;
+    width: 200px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+.top{
+    margin-top: -800px;
+    margin-bottom: -200px;
+}
+
+.clr{
+    color: aliceblue;
+}

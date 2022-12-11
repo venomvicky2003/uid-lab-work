@@ -5,14 +5,11 @@
 }
 
 .border{
-    border-radius: 15px;
-    background-color: #f2f2f2;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 180px;
+    text-align: center;
+    align-items: center;
 }
 
-input[type=text] {
+input[type=text],input[type=password] {
     padding: 12px 20px;
     display: inline-block;
     border: 1px solid #ccc;
@@ -30,4 +27,8 @@ button{
 }
 canvas{
   pointer-events:none;
+}
+
+.align{
+  text-align: center;
 }
